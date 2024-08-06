@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Parent to Child Communication">
+    <c-p2c-child-component card-heading="P2C communication" number="60" message="Passing data from Parent" is-valid="false"></c-p2c-child-component>
+    </lightning-card>
+
+
+    <lightning-card title="Passing non primitive data types from P2C">
+        <c-p2c-caursal-component caursal-details={CaursalData}></c-p2c-caursal-component>
+        <c-p2c-child-component card-heading="P2C communication" number="70" message="Passing second time data from Parent" is-valid="false"></c-p2c-child-component>
+    </lightning-card>
+    
+</template>

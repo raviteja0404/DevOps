@@ -1,0 +1,13 @@
+<template>
+
+    <lightning-card class="slds-var-m-around_medium">
+        <lightning-input type="text" label="Enter Course name" onkeyup={ChHandler}></lightning-input>
+        <div>{fullname} is learning {crashcourse}</div>
+    </lightning-card>
+
+    <lightning-card class="slds-var-m-around_medium">
+        <lightning-input type="text" label="Enter City name" onkeyup={UpdateHandler}></lightning-input>
+        <div>{fullname} is from {area.location}</div>
+    </lightning-card>
+    
+</template>

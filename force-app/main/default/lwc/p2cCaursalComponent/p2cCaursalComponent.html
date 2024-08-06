@@ -1,0 +1,16 @@
+<template>
+    <div>
+        <div class="slds-var-m-around_medium">Basic Carousel
+            <lightning-carousel>
+                <template for:each={CaursalDetails} for:item="item">
+                    <lightning-carousel-image key={item.number}
+                    header ={item.header}
+                    description ={item.description}
+                    alternative-text ={item.alternativetext}>
+                </lightning-carousel-image>
+                </template>     
+            </lightning-carousel>
+        </div>
+    </div>
+    
+</template>
